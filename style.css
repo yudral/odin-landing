@@ -1,0 +1,24 @@
+#big {
+    display: flex;
+}
+
+#navbar {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAFB;
+}
+
+#awesome {
+    background-color: #1F2937;
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAFB;
+}
+
+#footer {
+    background-color: #1F2937;
+}
+
+#call {
+    background-color: #3882F6;
+}
