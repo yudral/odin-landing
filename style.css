@@ -29,6 +29,7 @@ a {
     font-size: 24px;
     color: #F9FAFB;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -37,6 +38,7 @@ a {
     color: #F9FAFB;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-left: 250px;
     margin-right: 100px;
 }
@@ -87,6 +89,7 @@ a {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-left: 40px;
     margin-bottom: 40px;
 }
@@ -97,11 +100,6 @@ a {
 
 #bigger-awesome {
     background-color: #1F2937;
-}
-
-#call {
-    background-color: #3882F6;
-    display: flex;
 }
 
 #quote {
@@ -156,6 +154,8 @@ a {
     width: 300px;
     margin-left: 300px;
     margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .img-class {
@@ -197,6 +197,7 @@ a {
 }
 
 #call {
+    background-color: #3882F6;
     color: white;
     display: flex;
     flex-direction: row;
@@ -216,11 +217,13 @@ a {
     margin-right: 30px;
     font-size:large;
     font-weight: bold;
+    flex-wrap: wrap;
 }
 
 #call-text {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #footer {
@@ -237,8 +240,10 @@ a {
 }
 
 #bigger-call {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-bottom: 30px;
     background-color: white;
+    display: flex;
+    flex-wrap: wrap;
 }
